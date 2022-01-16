@@ -14,6 +14,9 @@ For frontend:
 * Axios
 * Boostrap
 
+## Database initialize
+* First time running the API there might be a problem since there is no database created, it should be fixed by typing in ```dotnet ef database update``` command in the package manager console
+
 ## How to run
 * To run the API, open the project in Visual Studio and press start or F5
 * To run the frontend, navigate to the postsfrontend folder in terminal and type npm start
